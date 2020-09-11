@@ -1,1 +1,2 @@
 p2p.uxnetwork.io:9876
+p2p2.uxnetwork.io:9876
