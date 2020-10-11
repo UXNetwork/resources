@@ -1,0 +1,17 @@
+BPs and full nodes should run the modified nodeos available at https://github.com/UXNetwork/eos
+
+In addition, BPs and full nodes should enable the following in their config.ini:
+
+**********************
+
+greylist-limit = 1
+
+chain-state-db-size-mb = 9216
+
+chain-threads = 8
+
+wasm-runtime = eos-vm-jit
+eos-vm-oc-compile-threads = 4
+eos-vm-oc-enable = 1
+
+**********************
